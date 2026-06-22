@@ -1,0 +1,5 @@
+/* Design tokens — import into index.css if you need global CSS vars */
+:root {
+  --color-brand: #6366f1;
+  --color-brand-dark: #4f46e5;
+}
