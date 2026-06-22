@@ -1,4 +1,4 @@
-import { useState, FormEvent } from 'react'
+import { useState, type FormEvent } from 'react'
 import { User, Mail, Lock, CheckCircle, AlertCircle } from 'lucide-react'
 import { joinWaitlist } from '../lib/supabase'
 

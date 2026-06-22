@@ -17,22 +17,6 @@ const CHAT = [
   { user: false, text: "Here's a calmer version focused on facts, schedule and the child's needs." },
 ]
 
-// Animation steps: [delay_ms, action, messageIndex | -1]
-const SEQ: [number, 'show' | 'think' | 'unthink' | 'reset'][] = [
-  [600,  'show'],
-  [1000, 'think'],
-  [1600, 'unthink'],
-  [1650, 'show'],
-  [2400, 'show'],
-  [2800, 'think'],
-  [3400, 'unthink'],
-  [3450, 'show'],
-  [4200, 'show'],
-  [4600, 'think'],
-  [5200, 'unthink'],
-  [5250, 'show'],
-  [10000,'reset'],
-]
 
 // ─── Main export ─────────────────────────────────────────────────────────────
 
