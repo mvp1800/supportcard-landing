@@ -4,16 +4,16 @@ export default function Terms() {
   return (
     <LegalLayout title="Terms of Service" lastUpdated="June 22, 2026">
       <Section title="1. Acceptance of Terms">
-        <p>By accessing or using Support Card ("the Service"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the Service. These terms apply to all users, including those on free and paid plans.</p>
+        <p>By accessing or using SupportCard ("the Service"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the Service. These terms apply to all users, including those on free and paid plans.</p>
       </Section>
 
       <Section title="2. Description of Service">
-        <p>Support Card is a SaaS platform designed to help co-parents manage child-related finances, schedules, expenses, and communications. The Service is provided on a subscription basis with plans ranging from a free tier to paid tiers at $4.99, $9.99, and $14.99 per month.</p>
-        <p>Support Card is a tool to assist co-parents and is <strong>not a substitute for legal advice</strong>. Nothing on this platform constitutes legal, financial, or therapeutic advice. Always consult a qualified professional for legal matters related to your co-parenting arrangement.</p>
+        <p>SupportCard is a SaaS platform designed to help co-parents manage child-related finances, schedules, expenses, and communications. The Service is provided on a subscription basis with plans ranging from a free tier to paid tiers at $4.99, $9.99, and $14.99 per month.</p>
+        <p>SupportCard is a tool to assist co-parents and is <strong>not a substitute for legal advice</strong>. Nothing on this platform constitutes legal, financial, or therapeutic advice. Always consult a qualified professional for legal matters related to your co-parenting arrangement.</p>
       </Section>
 
       <Section title="3. Eligibility">
-        <p>You must be at least 18 years old to use the Service. By using Support Card, you represent that you are of legal age and have the authority to enter into this agreement. The Service is intended for individuals managing co-parenting arrangements and is not designed for use by children.</p>
+        <p>You must be at least 18 years old to use the Service. By using SupportCard, you represent that you are of legal age and have the authority to enter into this agreement. The Service is intended for individuals managing co-parenting arrangements and is not designed for use by children.</p>
       </Section>
 
       <Section title="4. Account Registration">
@@ -22,7 +22,7 @@ export default function Terms() {
       </Section>
 
       <Section title="5. Subscription Plans and Billing">
-        <p>Support Card offers the following subscription tiers:</p>
+        <p>SupportCard offers the following subscription tiers:</p>
         <ul>
           <li><strong>Preview (Free):</strong> Limited access for testing the platform.</li>
           <li><strong>Essential ($4.99/month or $49/year):</strong> Core features for individual co-parents.</li>
@@ -50,11 +50,11 @@ export default function Terms() {
       </Section>
 
       <Section title="8. Data and Privacy">
-        <p>Your use of the Service is also governed by our <a href="/privacy">Privacy Policy</a>, which is incorporated into these Terms by reference. By using Support Card, you consent to the collection and use of your data as described in the Privacy Policy.</p>
+        <p>Your use of the Service is also governed by our <a href="/privacy">Privacy Policy</a>, which is incorporated into these Terms by reference. By using SupportCard, you consent to the collection and use of your data as described in the Privacy Policy.</p>
       </Section>
 
       <Section title="9. Intellectual Property">
-        <p>All content, features, and functionality of the Service — including but not limited to text, graphics, logos, and software — are the exclusive property of Support Card and are protected by applicable intellectual property laws. You may not reproduce, distribute, or create derivative works without our written permission.</p>
+        <p>All content, features, and functionality of the Service — including but not limited to text, graphics, logos, and software — are the exclusive property of SupportCard and are protected by applicable intellectual property laws. You may not reproduce, distribute, or create derivative works without our written permission.</p>
       </Section>
 
       <Section title="10. Disclaimer of Warranties">
@@ -62,7 +62,7 @@ export default function Terms() {
       </Section>
 
       <Section title="11. Limitation of Liability">
-        <p>To the fullest extent permitted by law, Support Card shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of or inability to use the Service. Our total liability to you shall not exceed the amount you paid us in the 12 months preceding the claim.</p>
+        <p>To the fullest extent permitted by law, SupportCard shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of or inability to use the Service. Our total liability to you shall not exceed the amount you paid us in the 12 months preceding the claim.</p>
       </Section>
 
       <Section title="12. Governing Law">
