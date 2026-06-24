@@ -343,3 +343,11 @@ body {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* ── Legal pages ──────────────────────────────────────────────────────────── */
+.legal-body p  { margin-bottom: 12px; }
+.legal-body ul { padding-left: 20px; margin-bottom: 12px; }
+.legal-body li { margin-bottom: 6px; list-style-type: disc; }
+.legal-body a  { color: #4B9FD8; text-decoration: underline; }
+.legal-body a:hover { color: #3A8BC4; }
+.legal-body strong { color: #001F3F; font-weight: 600; }

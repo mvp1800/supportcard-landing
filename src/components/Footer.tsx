@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 export default function Footer() {
   return (
     <footer
@@ -135,10 +137,21 @@ export default function Footer() {
         <div style={{ height:1, background:'linear-gradient(90deg, transparent, #dde8f0 30%, #dde8f0 70%, transparent)', marginBottom:16 }} />
 
         {/* Bottom bar */}
-        <div className="flex flex-col md:flex-row items-center justify-between gap-2">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-3">
           <p style={{ fontSize:12, color:'#bbb' }}>
             © 2026 Support Card. All rights reserved.
           </p>
+          <div className="flex items-center gap-4">
+            <Link to="/terms"   style={{ fontSize:12, color:'#aaa', textDecoration:'none' }}
+              onMouseEnter={e=>(e.currentTarget.style.color='#4B9FD8')}
+              onMouseLeave={e=>(e.currentTarget.style.color='#aaa')}>Terms</Link>
+            <Link to="/privacy" style={{ fontSize:12, color:'#aaa', textDecoration:'none' }}
+              onMouseEnter={e=>(e.currentTarget.style.color='#4B9FD8')}
+              onMouseLeave={e=>(e.currentTarget.style.color='#aaa')}>Privacy</Link>
+            <Link to="/refunds" style={{ fontSize:12, color:'#aaa', textDecoration:'none' }}
+              onMouseEnter={e=>(e.currentTarget.style.color='#4B9FD8')}
+              onMouseLeave={e=>(e.currentTarget.style.color='#aaa')}>Refunds</Link>
+          </div>
           <p style={{ fontSize:12, color:'#bbb' }}>
             Built for co-parents, by people who get it.
           </p>
