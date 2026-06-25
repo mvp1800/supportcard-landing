@@ -78,10 +78,8 @@ function buildEmail(firstName: string): string {
               <td style="padding-right:11px;vertical-align:middle;">
                 <table role="presentation" cellpadding="0" cellspacing="0" border="0">
                   <tr>
-                    <td style="width:32px;height:32px;background:#4B9FD8;border-radius:8px;text-align:center;vertical-align:middle;">
-                      <svg viewBox="0 0 24 24" fill="white" width="16" height="16" style="display:block;margin:0 auto;">
-                        <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
-                      </svg>
+                    <td style="width:32px;height:32px;background:#4B9FD8;border-radius:8px;text-align:center;vertical-align:middle;font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;font-size:16px;color:#ffffff;line-height:32px;">
+                      &#9829;
                     </td>
                   </tr>
                 </table>
@@ -140,17 +138,14 @@ function buildEmail(firstName: string): string {
           </table>
 
 
-          <!-- ── Feature row 1 — Bell (first to know) ── -->
+          <!-- ── Feature row 1 ── -->
           <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:20px;">
             <tr>
               <td style="width:44px;padding-right:16px;vertical-align:top;">
                 <table role="presentation" cellpadding="0" cellspacing="0" border="0">
                   <tr>
-                    <td style="width:44px;height:44px;background:rgba(75,159,216,0.08);border:1px solid rgba(75,159,216,0.16);border-radius:12px;text-align:center;vertical-align:middle;">
-                      <svg viewBox="0 0 24 24" fill="none" stroke="#4B9FD8" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" width="20" height="20" style="display:block;margin:0 auto;">
-                        <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/>
-                        <path d="M13.73 21a2 2 0 0 1-3.46 0"/>
-                      </svg>
+                    <td style="width:44px;height:44px;background:rgba(75,159,216,0.08);border:1px solid rgba(75,159,216,0.16);border-radius:12px;text-align:center;vertical-align:middle;font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;font-size:13px;font-weight:800;color:#4B9FD8;letter-spacing:-0.5px;line-height:44px;">
+                      01
                     </td>
                   </tr>
                 </table>
@@ -164,16 +159,14 @@ function buildEmail(firstName: string): string {
             </tr>
           </table>
 
-          <!-- ── Feature row 2 — Zap (early access) ── -->
+          <!-- ── Feature row 2 ── -->
           <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:20px;">
             <tr>
               <td style="width:44px;padding-right:16px;vertical-align:top;">
                 <table role="presentation" cellpadding="0" cellspacing="0" border="0">
                   <tr>
-                    <td style="width:44px;height:44px;background:rgba(75,159,216,0.08);border:1px solid rgba(75,159,216,0.16);border-radius:12px;text-align:center;vertical-align:middle;">
-                      <svg viewBox="0 0 24 24" fill="none" stroke="#4B9FD8" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" width="20" height="20" style="display:block;margin:0 auto;">
-                        <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
-                      </svg>
+                    <td style="width:44px;height:44px;background:rgba(75,159,216,0.08);border:1px solid rgba(75,159,216,0.16);border-radius:12px;text-align:center;vertical-align:middle;font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;font-size:13px;font-weight:800;color:#4B9FD8;letter-spacing:-0.5px;line-height:44px;">
+                      02
                     </td>
                   </tr>
                 </table>
@@ -186,17 +179,14 @@ function buildEmail(firstName: string): string {
             </tr>
           </table>
 
-          <!-- ── Feature row 3 — Tag (founder pricing) ── -->
+          <!-- ── Feature row 3 ── -->
           <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:40px;">
             <tr>
               <td style="width:44px;padding-right:16px;vertical-align:top;">
                 <table role="presentation" cellpadding="0" cellspacing="0" border="0">
                   <tr>
-                    <td style="width:44px;height:44px;background:rgba(75,159,216,0.08);border:1px solid rgba(75,159,216,0.16);border-radius:12px;text-align:center;vertical-align:middle;">
-                      <svg viewBox="0 0 24 24" fill="none" stroke="#4B9FD8" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" width="20" height="20" style="display:block;margin:0 auto;">
-                        <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/>
-                        <line x1="7" y1="7" x2="7.01" y2="7"/>
-                      </svg>
+                    <td style="width:44px;height:44px;background:rgba(75,159,216,0.08);border:1px solid rgba(75,159,216,0.16);border-radius:12px;text-align:center;vertical-align:middle;font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;font-size:13px;font-weight:800;color:#4B9FD8;letter-spacing:-0.5px;line-height:44px;">
+                      03
                     </td>
                   </tr>
                 </table>
